@@ -1,3 +1,5 @@
+[Bluespec reference guide](http://csg.csail.mit.edu/6.S078/6_S078_2012_www/resources/reference-guide.pdf)
+
 [`cb_simple/ConnectionBox.bsv`](cb_simple/ConnectionBox.bsv) is equivalent to the magma connection box with the following parameters:
 
 * `width` is represented by arbitrary `type d` not necessarily a bit vector.
