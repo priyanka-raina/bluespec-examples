@@ -28,7 +28,7 @@ For example, when the above interface is instantiated as
 ```
 FIFO_N_to_1#(8, Bit#(8))
 ```
-Becomes
+it becomes the following in the generated verilog
 ```
 module mkFIFO_8_to_1_Byte(
   CLK,
