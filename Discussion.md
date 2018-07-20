@@ -1,6 +1,6 @@
 (Pat) I think my favorite part of bluespec is the method interface. It would be interesting to add something like that to magma.
 
-(Priyanka) I agree, it helps group logically related ports together. You can also nest interfaces :) I added a new example in [`serdes_fifo/`](serdes_fifo).
+(Priyanka) I agree, it helps group logically related ports together. You can also nest interfaces :) I added a new example in [`serdes_fifo/`](serdes_fifo) which is a serializing FIFO, you put N things in parallel and you can take them out one by one in order.
 
 ```
 interface FIFO_N_to_1#(numeric type n, type d);
