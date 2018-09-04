@@ -1,5 +1,5 @@
 # Riesz Pyramid Constructor
-Function: Takes an image as input and generates its riesz pyramid (this is similar to a laplacian pyramid with some extra components.
+Function: Takes an image as input and generates its riesz pyramid (this is similar to a laplacian pyramid with some extra components).
 
 The top level module is in [`PyramidConstructor.bsv`](PyramidConstructor.bsv). It has the following interface:
 
