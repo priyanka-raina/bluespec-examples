@@ -10,3 +10,5 @@ bsc -u -p .:%/Prelude:%/Libraries -keep-fires -aggressive-conditions -bdir vlog 
 * `feedthrough_outputs` is something that the connection box should not know, it should just be given the inputs it is supposed to multiplex, knowledge of feedthrough should be in a higher level module, so I have omited it. 
 
 This module does not support `has_constant` and `default_value`. [`../cb_with_optional_constant/ConnectionBox.bsv`](../cb_with_optional_constant/ConnectionBox.bsv) supports this, but the code is much uglier with ifdefs.
+
+Also, serialization of the configuration logic could be moved to the PE tile, if that is where the connection boxes are instantiated.
