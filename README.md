@@ -1,6 +1,6 @@
 # Bluespec Examples
-* [pyramid](pyramid)- Generates laplacian pyramid of an image
-* [serdes_fifo](serdes_fifo)- Serializing FIFO; enqueues n words at once, dequeues them one by one
+* [pyramid](pyramid) - Generates laplacian pyramid of an image
+* [serdes_fifo](serdes_fifo) - Serializing FIFO; enqueues n words at once, dequeues them one by one
 * [cb_simple](cb_simple) - Simple CGRA connection box
 * [cb_with_optional_constant]() - CGRA connection box with constant
 
