@@ -23,6 +23,7 @@ Takes an image as input and generates its riesz pyramid (this is similar to a la
   * `dbits` = 16
   * `maxheight` = 720
   * `maxwidth` = 1280
+  
   This is the only logic that will be in the application, and therefore is the design under test.
   Bluespec does not generate verilog for generators, it generates verilog for specific instantiations of the generator. 
   
